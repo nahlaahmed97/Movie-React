@@ -11,7 +11,7 @@ function App() {
     results: [],
     selected: {}
   });
-  const apiurl = "http://www.omdbapi.com/?apikey=dfe6d885";
+  const apiurl = "http://www.omdbapi.com/?apikey=32b9720f";
 
   const search = (e) => {
     if (e.key === "Enter") {
@@ -45,16 +45,19 @@ function App() {
     });
   }
 
+  
   const closePopup = () => {
     setState(prevState => {
       return { ...prevState, selected: {} }
     });
   }
 
+
+
   return (
     <div className="App">
       <header>
-        <h1>Movie Database</h1>
+        <h1>Movie List</h1>
       </header>
       <main>
         <Search handleInput={handleInput} search={search} />
