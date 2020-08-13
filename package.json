@@ -2,7 +2,7 @@
   "name": "moviedb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nahlaahmed97.github.io/Movie-React",
+  "homepage": "https://nahlaahmed97.github.io/Movie-React/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
